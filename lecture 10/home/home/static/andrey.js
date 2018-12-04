@@ -1,13 +1,13 @@
-let elem = {
-  template: `<li class='file'>
-  <div class='name'>{{name}}</div>
-  <div class='info'>i</div>
-  <div class='edit'>e</div>
-  <div class='copy'>c</div>
-  <div class='remove'>r</div>
-  </li>`,
-  props : ['name']
-}; 
+const elem = {
+  template: `<li class='file'> 
+  <div class='name'>{{name}}</div> 
+  <div class='info'>i</div> 
+  <div class='edit'>e</div> 
+  <div class='copy'>c</div> 
+  <div class='remove'>r</div> 
+  </li>`, 
+  props : ['name'] 
+};  
 
 let andrey = new Vue({
   el: '#app',
